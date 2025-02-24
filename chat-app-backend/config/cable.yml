@@ -1,0 +1,6 @@
+development:
+  adapter: async
+  # You can also use Redis if preferred for scaling
+  # adapter: redis
+  # url: redis://localhost:6379/1
+  channel_prefix: chat_app_development
